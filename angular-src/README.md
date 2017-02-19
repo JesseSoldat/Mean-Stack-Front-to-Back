@@ -19,6 +19,9 @@ app.post('/', function(req, res, next) {
  // Handle the post for this route
 });
 ------------------------------------------------
+mongod --port 27018
+mongo --port 27018
+
 show dbs
 
 //database
