@@ -1,4 +1,30 @@
 # MeanStackFrontBack
+---------------------------------------------------------
+Postman 
+get http://localhost:3000/users/profile
+--------------------------------------------------------
+Authorization (token)
+
+no body
+--------------------------------------------------------
+
+route--------------------------------------------------
+post  http://localhost:3000/users/authentication
+Headers-------------------------------------------------
+Content-Type  application/json
+body----------------------------------------------------
+{
+	"username": "marksoldat",
+	"password": "marksoldat"
+}
+
+-------------------------------------------
+
+
+
+
+
+----------------------------------------------------
 NPM CORS
 https://www.npmjs.com/package/cors
 ------------------------------------------------
@@ -19,6 +45,7 @@ app.post('/', function(req, res, next) {
  // Handle the post for this route
 });
 ------------------------------------------------
+cd C:\mongodb\bin
 mongod --port 27018
 mongo --port 27018
 
